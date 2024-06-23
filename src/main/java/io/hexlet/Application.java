@@ -28,7 +28,6 @@ public class Application {
                     System.out.println(resultSet.getString("phone"));
                 }
             }
-            conn.close();
         }
     }
 }
