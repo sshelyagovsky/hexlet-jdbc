@@ -2,6 +2,7 @@ plugins {
     application
     id("java")
     id("checkstyle")
+    id("io.freefair.lombok") version "8.6"
 }
 
 application {
